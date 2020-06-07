@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Jokes.Data.Topic>
+@{
+    ViewBag.Title = "Jody's Funny Jokes";
+    ViewBag.InitModule = "homeIndex";
+}
+@section Scripts {
+  <script src="~/js/home-index.min.js"></script>
+}
+
+<div data-ng-view=""></div>
